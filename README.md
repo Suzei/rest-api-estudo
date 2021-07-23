@@ -77,21 +77,23 @@ São divididos em 5 - 1xx, 2xx, 3xx, 4xx e 5xx
 
 • 2xx - Sucesso em operações
 
-200 - OK (Requisição foi um sucesso)
-201 - CREATED - (Uma nova instância foi criada) / POST OU PUT
-202 - ACCEPTED - (O recurso será atualizado de forma assíncrona)
-204 - NO CONTENT - A requisição foi processada / DELETE retorna isso
-206 - PARTIAL CONTENT - (Paginação quando há muitos itens)
+- 200 - OK (Requisição foi um sucesso)
+- 201 - CREATED - (Uma nova instância foi criada) / POST OU PUT
+- 202 - ACCEPTED - (O recurso será atualizado de forma assíncrona)
+- 204 - NO CONTENT - A requisição foi processada / DELETE retorna isso
+- 206 - PARTIAL CONTENT - (Paginação quando há muitos itens)
 
 • 4xx - Erro no client side
-400 - BAD REQUEST - (Campo digitado errado, uma informação obrigatória não preenchida)
-401 - UNAUTHORIZED - (Credenciais inválidas, senha errada, CPF errado)
-403 - FORBIDDEN - (Credenciais válidas, mas o recurso não está autorizado)
-404 - NOT FOUND - (Quando uma URL não existe ou está digitada de forma errada)
-410 - GONE - (Quando o recurso na URL não existe)
-422 - Unprocessable Entity - (Quando as informações estão certas, mas um condicional impede aquilo de ser enviado)
+
+- 400 - BAD REQUEST - (Campo digitado errado, uma informação obrigatória não preenchida)
+- 401 - UNAUTHORIZED - (Credenciais inválidas, senha errada, CPF errado)
+- 403 - FORBIDDEN - (Credenciais válidas, mas o recurso não está autorizado)
+- 404 - NOT FOUND - (Quando uma URL não existe ou está digitada de forma errada)
+- 410 - GONE - (Quando o recurso na URL não existe)
+- 422 - Unprocessable Entity - (Quando as informações estão certas, mas um condicional impede aquilo de ser enviado)
 
 • 5xx - Erro no server side
-500 - INTERNAL SERVER ERROR - (Quando há erro no servidor, de forma interna)
-503 - SERVICE UNAVAILABLE - (Quando é um erro temporário)
-504 - GATEWAY TIMEOUT - (Quando uma aplicação tá lenta)
+
+- 500 - INTERNAL SERVER ERROR - (Quando há erro no servidor, de forma interna)
+- 503 - SERVICE UNAVAILABLE - (Quando é um erro temporário)
+- 504 - GATEWAY TIMEOUT - (Quando uma aplicação tá lenta)
